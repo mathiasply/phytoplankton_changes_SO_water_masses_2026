@@ -30,9 +30,9 @@ library(terra)
 library(fda)
 library(here)
 
-dir_01  <- "G:/papier_phyto_change_2026/test code/ecoregion"
-dir_02  <- "G:/papier_phyto_change_2026/test code/chla_fit"
-out_dir <- "G:/papier_phyto_change_2026/test code/chla_analysis"
+dir_01  <- " "
+dir_02  <- " "
+out_dir <- " "
 dir.create(out_dir, recursive = TRUE, showWarnings = FALSE)
 
 eco_file  <- file.path(dir_01, "ecoregions", "ecoregions_k8.shp")
@@ -41,8 +41,8 @@ sd_file   <- file.path(dir_01, "ecoregions", "cluster_sd.tif")
 
 n_steps       <- 23
 min_seasons   <- 10
-early_window  <- c(2010, 2015)    # seasons 1998/99 to 2008/09
-recent_window <- c(2015, 2019)    # seasons 2014/15 to 2023/24
+early_window  <- c(1998, 2008)    # seasons 1998/99 to 2008/09
+recent_window <- c(2014, 2023)    # seasons 2014/15 to 2023/24
 
 coords  <- readRDS(file.path(dir_02, "data","grid_coords.rds"))
 bio     <- readRDS(file.path(dir_02, "data","biomass_matrix.rds"))
