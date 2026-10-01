@@ -26,10 +26,10 @@ library(ggridges)
 library(fda)
 library(here)
 
-dir_01  <- "G:/papier_phyto_change_2026/test code/ecoregion"
-dir_02  <- "G:/papier_phyto_change_2026/test code/chla_fit"
-dir_03 <- "G:/papier_phyto_change_2026/test code/chla_analysis"
-fig_dir <- "G:/papier_phyto_change_2026/test code/chla_fig"
+dir_01  <- " "
+dir_02  <- " "
+dir_03 <- " "
+fig_dir <- " "
 dir.create(fig_dir, recursive = TRUE, showWarnings = FALSE)
 
 eco_file   <- file.path(dir_01, "ecoregions", "ecoregions_k8.shp")
@@ -43,8 +43,8 @@ month_labels <- c("Oct", "Nov", "Dec", "Jan", "Feb", "Mar")
 eco_palette <- c("1" = "#006837", "2" = "#66BD63", "3" = "#D9EF8B", "4" = "#F0F097",
                  "5" = "#ACD1DD", "6" = "#CACCE0", "7" = "#8073AC", "8" = "#542788")
 
-font_reg  <- "C:/Users/etudhenri5/Desktop/lmroman10-regular.otf"
-font_bold <- "C:/Users/etudhenri5/Desktop/lmroman10-bold.otf"
+font_reg  <- " "
+font_bold <- " "
 if (file.exists(font_reg)) {
   sysfonts::font_add("LM Roman 10", regular = font_reg,
                      bold = if (file.exists(font_bold)) font_bold else NULL)
