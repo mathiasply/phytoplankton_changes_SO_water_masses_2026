@@ -14,21 +14,21 @@ authors:
     given-names: Mathias
     email: mathias.pouly@cebc.cnrs.fr
     affiliation: "Centre d'Études Biologiques de Chizé, UMR 7372, CNRS, La Rochelle University"
-    orcid: "https://orcid.org/0000-0000-0000-0000"
+    orcid: "https://orcid.org/0009-0008-7347-8992"
   - family-names: Le Ster
-    given-names: L.
+    given-names: Loic
     affiliation: "Centre d'Études Biologiques de Chizé, UMR 7372, CNRS, La Rochelle University; Laboratoire d'Océanographie de Villefranche, CNRS UMR 7093, Sorbonne Université"
   - family-names: Molinet
-    given-names: M.
+    given-names: Marius
     affiliation: "Centre d'Études Biologiques de Chizé, UMR 7372, CNRS, La Rochelle University; Aix Marseille Univ., Toulon University, CNRS, IRD, MIO UM 110"
   - family-names: Gros-Martial
-    given-names: A.
+    given-names: Anatole
     affiliation: "Centre d'Études Biologiques de Chizé, UMR 7372, CNRS, La Rochelle University"
   - family-names: Sari El Dine
-    given-names: Z.
+    given-names: Ziad
     affiliation: "Centre d'Études Biologiques de Chizé, UMR 7372, CNRS, La Rochelle University; Laboratoire d'Océanologie et de Géosciences, UMR 8187, Univ. Littoral Côte d'Opale, Univ. Lille, CNRS, IRD"
   - family-names: Bouillot
-    given-names: A.
+    given-names: Auriane
     affiliation: "Centre d'Études Biologiques de Chizé, UMR 7372, CNRS, La Rochelle University"
   - family-names: Uitz
     given-names: Julia
@@ -59,15 +59,15 @@ preferred-citation:
     - family-names: Pouly
       given-names: Mathias
     - family-names: Le Ster
-      given-names: L.
+      given-names: Loic
     - family-names: Molinet
-      given-names: M.
+      given-names: Marius
     - family-names: Gros-Martial
-      given-names: A.
+      given-names: Anatole
     - family-names: Sari El Dine
-      given-names: Z.
+      given-names: Ziad
     - family-names: Bouillot
-      given-names: A.
+      given-names: Auriane
     - family-names: Uitz
       given-names: Julia
     - family-names: Guinet
