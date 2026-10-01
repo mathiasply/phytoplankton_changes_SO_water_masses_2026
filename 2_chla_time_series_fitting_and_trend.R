@@ -35,8 +35,8 @@ library(trend)
 library(here)
 
 # Paths (relative to the repository root)
-chl_dir    <- "E:/RAW DATA CHLA/CHLA (OC-CCI)/8DAYS"
-out_dir    <- "G:/papier_phyto_change_2026/test code/chla_fit"
+chl_dir    <- " "
+out_dir    <- " "
 dir_data   <- file.path(out_dir, "data")
 dir_chunks <- file.path(dir_data, "chunks")
 dir_fig    <- file.path(out_dir, "figures")
@@ -66,8 +66,8 @@ min_seasons <- 10             # minimum seasons with data to estimate a trend
 p_thresh    <- 0.05
 
 
-font_reg  <- "C:/Users/etudhenri5/Desktop/lmroman10-regular.otf"
-font_bold <- "C:/Users/etudhenri5/Desktop/lmroman10-bold.otf"
+font_reg  <- " "
+font_bold <- " "
 if (file.exists(font_reg)) {
   sysfonts::font_add("LM Roman 10", regular = font_reg,
                      bold = if (file.exists(font_bold)) font_bold else NULL)
