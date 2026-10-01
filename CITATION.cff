@@ -1,0 +1,74 @@
+cff-version: 1.2.0
+message: "If you use this code or the ecoregion layers, please cite the article and this archive as below."
+type: software
+title: "Code and data for: Multidecadal trends in phytoplankton biomass and phenology in Southern Ocean water masses"
+abstract: >-
+  R code and derived data used to build a hydrological ecoregionalization of the
+  Southern Ocean from the bivariate functional PCA of temperature-salinity
+  profiles (0-1000 m), and to estimate multidecadal trends (1998/99-2023/24) in
+  phytoplankton biomass and phenology from ESA OC-CCI v6.0 satellite
+  chlorophyll-a with functional data analysis and non-parametric trend
+  estimation.
+authors:
+  - family-names: Pouly
+    given-names: Mathias
+    email: mathias.pouly@cebc.cnrs.fr
+    affiliation: "Centre d'Études Biologiques de Chizé, UMR 7372, CNRS, La Rochelle University"
+    orcid: "https://orcid.org/0000-0000-0000-0000"
+  - family-names: Le Ster
+    given-names: L.
+    affiliation: "Centre d'Études Biologiques de Chizé, UMR 7372, CNRS, La Rochelle University; Laboratoire d'Océanographie de Villefranche, CNRS UMR 7093, Sorbonne Université"
+  - family-names: Molinet
+    given-names: M.
+    affiliation: "Centre d'Études Biologiques de Chizé, UMR 7372, CNRS, La Rochelle University; Aix Marseille Univ., Toulon University, CNRS, IRD, MIO UM 110"
+  - family-names: Gros-Martial
+    given-names: A.
+    affiliation: "Centre d'Études Biologiques de Chizé, UMR 7372, CNRS, La Rochelle University"
+  - family-names: Sari El Dine
+    given-names: Z.
+    affiliation: "Centre d'Études Biologiques de Chizé, UMR 7372, CNRS, La Rochelle University; Laboratoire d'Océanologie et de Géosciences, UMR 8187, Univ. Littoral Côte d'Opale, Univ. Lille, CNRS, IRD"
+  - family-names: Bouillot
+    given-names: A.
+    affiliation: "Centre d'Études Biologiques de Chizé, UMR 7372, CNRS, La Rochelle University"
+  - family-names: Uitz
+    given-names: Julia
+    affiliation: "Laboratoire d'Océanographie de Villefranche, CNRS UMR 7093, Sorbonne Université"
+  - family-names: Guinet
+    given-names: Christophe
+    affiliation: "Centre d'Études Biologiques de Chizé, UMR 7372, CNRS, La Rochelle University"
+license: MIT
+repository-code: "https://github.com/mathiasply/phytoplankton_changes_SO_water_masses_2026"
+version: 1.0.0
+date-released: 2026-10-01
+keywords:
+  - Southern Ocean
+  - phytoplankton
+  - chlorophyll-a
+  - phenology
+  - ocean color
+  - functional data analysis
+  - ecoregionalization
+  - water masses
+preferred-citation:
+  type: article
+  title: "Multidecadal trends in phytoplankton biomass and phenology in Southern Ocean water masses"
+  journal: "Journal of Geophysical Research: Oceans"
+  year: 2026
+  status: submitted
+  authors:
+    - family-names: Pouly
+      given-names: Mathias
+    - family-names: Le Ster
+      given-names: L.
+    - family-names: Molinet
+      given-names: M.
+    - family-names: Gros-Martial
+      given-names: A.
+    - family-names: Sari El Dine
+      given-names: Z.
+    - family-names: Bouillot
+      given-names: A.
+    - family-names: Uitz
+      given-names: Julia
+    - family-names: Guinet
+      given-names: Christophe
