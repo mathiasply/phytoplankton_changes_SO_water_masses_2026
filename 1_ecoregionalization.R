@@ -36,8 +36,8 @@ library(sf)
 library(here)
 
 # Paths (relative to the repository root)
-raw_dir <-  "E:/TS DATA/Raw data 1998 2023 all SO/all_zone"         # downloaded NetCDF files
-out_dir <- "G:/papier_phyto_change_2026/test code/ecoregion"
+raw_dir <-  " "         # downloaded NetCDF files
+out_dir <- " "
 dir_data <- file.path(out_dir, "data")
 dir_eco  <- file.path(out_dir, "ecoregions")
 dir_fig  <- file.path(out_dir, "figures")
@@ -60,8 +60,8 @@ eco_palette <- c("#006837", "#66BD63", "#D9EF8B", "#F0F097",
                  "#ACD1DD", "#CACCE0", "#8073AC", "#542788")
 
 
-font_reg  <- "C:/Users/etudhenri5/Desktop/lmroman10-regular.otf"
-font_bold <- "C:/Users/etudhenri5/Desktop/lmroman10-bold.otf"
+font_reg  <- " "
+font_bold <- " "
 if (file.exists(font_reg)) {
   sysfonts::font_add("LM Roman 10", regular = font_reg,
                      bold = if (file.exists(font_bold)) font_bold else NULL)
